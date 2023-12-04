@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Results</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">The Calculator</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">How This Works</a></li>
+							<li><a href="results.html">=</a></li>
+							<li><a href="more.html">More</a></li>
+							<li><a href="creator.html">About the Creator</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>A+B+C Equals...</h1>
+							<span class="image main"><img src="images/pts_scale.jpg" alt="" /></span>
+                            <h2> The Calculator has accumulated your points and categorized them into a life scale.</h2>
+                            <section>
+                                <div class="table-wrapper">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Range</th>
+                                                <th>What does it mean?</th>
+                                                <th>Hashtag Motto!</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>40-80</td>
+                                                <td>You answered mostly As, which means you need to get better! </td>
+                                                <td>#switchupyourcurrentlifestyle</td>
+                                            </tr>
+                                            <tr>
+                                                <td>80-120</td>
+                                                <td>You answered mostly Bs, which means you have a pretty normal lifestyle. If you life normal, you don't need to change anything!</td>
+                                                <td>#average</td>
+                                            </tr>
+                                            <tr>
+                                                <td>120-160</td>
+                                                <td>You answered mostly Cs, which means you have a very healthy lifestyle. Keep it up!</td>
+                                                <td>#aboveaverage</td>
+                                            </tr>
+                                            <tr>
+												<td colspan="2"></td>
+												<td><label for="Name">Enter Your Score:</label>
+                                                <input type="text" id="inputWord" name="Name" placeholder="Score">
+                                                <input type = "button" id = "result1" value = "Result"> 
+                                                <p class = "output" id="output1"></p> 
+                                                
+                                                       <script> 
+                                                       const txt1 = document.getElementById('inputWord');
+                                                       const btn1 = document.getElementById('result1');
+                                                       const out1 = document.getElementById('output1')
+                                                         function score() {
+                                                            if (txt1.value <=80) {
+                                                                out1.innerHTML = "Unwell"
+                                                            } else if (txt1.value >80 && txt1.value <= 120) {
+                                                                out1.innerHTML = "Fine"
+                                                            } else if (txt1.value >120) {
+                                                                out1.innerHTML = "Very Well"
+                                                            }
+                                                         }
+                                                         btn1.addEventListener('click', score);
+ 
+                                                       </script> 
+                                                
+                                                
+												</td>
+											</tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </section>
+                              </script> 
+							<p>YAY! You finished the quiz. Now, after viewing your result, take some time to think about your current lifestyle. Does it need improvements? Play this quiz as much as you'd life! You can even use it everyday to stay on track, or even every week. Thank you for playing!</p>
+                            <ul class="actions">
+								<li><a href="index.html" class="button large">Back</a></li>
+							</ul>
+                            <p> Be sure to check out the "About the Creator" Page to learn more about me and how I made this website!</p>
+                            <li><a href="creator.html" class="button large fit">About the Creator</a></li>
+                            
+                        </div>
+            <div>
+                <p>
+
+
+
+
+
+
+
+                </p>
+                <div>
+                <body>
+                        <section>
+                            <h2>Questions?</h2>
+                            <form method="post" action="#">
+                                <div class="row gtr-uniform">
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                                </div>
+                                <div class="col-4 col-12-small">
+                                    <input type="radio" id="demo-priority-low" name="demo-priority" checked>
+                                    <label for="demo-priority-low">Low</label>
+                                </div>
+                                <div class="col-4 col-12-small">
+                                    <input type="radio" id="demo-priority-normal" name="demo-priority">
+                                    <label for="demo-priority-normal">Normal</label>
+                                </div>
+                                <div class="col-4 col-12-small">
+                                    <input type="radio" id="demo-priority-high" name="demo-priority">
+                                    <label for="demo-priority-high">High</label>
+                                </div>
+                                <div class="col-6 col-12-small">
+                                    <input type="checkbox" id="demo-copy" name="demo-copy">
+                                    <label for="demo-copy">Email me a copy</label>
+                                </div>
+                                <div class="col-6 col-12-small">
+                                    <input type="checkbox" id="demo-human" name="demo-human" checked>
+                                    <label for="demo-human">Not a robot</label>
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <ul class="actions">
+                                        <li><input type="submit" value="Send Message" class="primary" /></li>
+                                        <li><input type="reset" value="Reset" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                        </section>
+                </body>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+                                    </ul>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+                </div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            
+
+	</body>
+</html> 
+
